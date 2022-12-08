@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowChatsActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textViewTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Chats"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButtonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_marginEnd="10dp"
+                android:background="#00FFFFFF"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@android:drawable/ic_menu_search"
+                tools:ignore="SpeakableTextPresentCheck"
+                tools:srcCompat="@android:drawable/ic_menu_search" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextContactFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Buscar contacto"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/listChats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

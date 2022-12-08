@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BlueDrop</string>
+    <string name="etq_boton_enviar">Enviar</string>
+    <string name="etq_menu_buscar">Buscar dispositivos</string>
+    <string name="etq_activar_bluetooth">Activar bluetooth</string>
+    <string name="etq_disp_vinculados">Dispositivos vinculados</string>
+    <string name="etq_disp_disponibles">Dispositivos disponibles</string>
+    <string name="etq_menu_escanear">Buscar dispositivos</string>
+    <string name="etq_menu_buscar_dispositivos">Refrescar lista</string>
+    <string name="opEliminarTodo">Eliminar todo</string>
+    <string name="opEliminar">Eliminar</string>
+</resources>
+
+

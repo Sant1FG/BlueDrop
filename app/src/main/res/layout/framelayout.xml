@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/frameLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<include android:id="@+id/activitymain" layout="@layout/activity_main" android:layout_width="fill_parent" android:layout_height="fill_parent"></include>
+<include android:id="@+id/layoutregistro2" android:layout_width="fill_parent" layout="@layout/layoutregistro" android:layout_height="fill_parent"></include>
+    <include android:id="@+id/layoutprincipal" layout="@layout/paginaprincipal" android:layout_width="fill_parent" android:layout_height="fill_parent"></include>
+</FrameLayout>

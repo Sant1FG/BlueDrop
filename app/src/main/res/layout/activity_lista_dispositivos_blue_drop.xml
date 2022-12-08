@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaDispositivosBlueDrop"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/etq_disp_disponibles"
+        android:textFontWeight="@integer/material_motion_duration_long_2" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lista_disponibles"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textFontWeight="@integer/material_motion_duration_long_2" />
+        android:fontFamily="sans-serif-black"
+        android:text="@string/etq_disp_vinculados" />
+
+    <ListView
+        android:id="@+id/lista_vinculados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

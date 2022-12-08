@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/opcion_buscar"
+     android:title="@string/etq_menu_buscar" />
+
+    <item android:id="@+id/opcion_encender_bluetooth"
+        android:title="@string/etq_activar_bluetooth" />
+</menu>
