@@ -1,17 +1,30 @@
-# BlueDrop
-Proyecto creado por Braulio, Silvana y Santiago
-Aplicación de mensajeria entre usuarios a través de Bluetooth
+# BlueDrop - Mensajería Bluetooth 
 
-Manual de uso:
-1. Registrarse en la aplicación
-2. Iniciar conexión
-3. Seleccionar Inicializar bluetooth en el menú
-4. Seleccionar Buscar dispositivos en el menú
-5. Seleccionar Iniciar busqueda en el menú
-6. Click sobre cualquier dispositivo cercano
-7. Envia todos los mensajes que quieras
-8. Acuerdate de revisar tus ultimas conversaciones en el historico
+Aplicación Android de mensajería P2P utilizando la tecnología Bluetooth.
 
-NOTA: Debido a la inestabilidad de la tecnología Bluetooth en los emuladores de Android estudio es posible que no aparezca la notificación que solicita al usuario
-permitir el descubrimiento de su dispositivo. En caso de que la aplicación no detecte a los usuarios cercanos por favor vuelva a la pantalla de chat y selecciones
-Inicializar Bluetooth en el menú hasta que aparezca un dialogo solicitando el reconocimiento durante 300 segundos
+## 📖 Descripción
+
+App desarrollada en Java para Android que permite la comunicación directa entre dispositivos sin necesidad de conexión a internet, usando la tecnología Bluetooth para la transferencia de mensajes en tiempo real entre dispositivos cercanos.
+
+## 🛠️ Tecnologías
+
+- **Lenguaje:** Java
+- **Plataforma:** Android
+- **Comunicación:** Bluetooth (BluetoothSocket API)
+
+## ✨ Características
+
+- Comunicación P2P sin conexión a internet
+- Transferencia de mensajes en tiempo real
+- Descubrimiento de dispositivos cercanos
+- Arquitectura cliente-servidor sobre sockets Bluetooth
+
+## 📌 Manual de uso
+
+1. Regístrate en la aplicación
+2. Selecciona **Inicializar Bluetooth** en el menú
+3. Selecciona **Buscar dispositivos** en el menú
+4. Selecciona **Iniciar búsqueda**
+5. Pulsa sobre cualquier dispositivo cercano para conectarte
+6. ¡Envía todos los mensajes que quieras!
+7. Revisa tus conversaciones anteriores en el histórico
